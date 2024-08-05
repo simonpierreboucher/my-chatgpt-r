@@ -17,19 +17,19 @@ export default function Home() {
         <div className="overflow-auto">
           <Markdown
             disableCopy
-            children={`### My ChatGPT - 构建您自己的聊天机器人站点
+            children={`### My ChatGPT - Build Your Own Chatbot Site
 
-My ChatGPT是一款基于OpenAI的ChatGPT API开发的个人聊天机器人站点。它能够为您提供一个私人的的聊天机器人站点，使您的客户和访客能够与您的机器人进行互动。只需提供API Key，您就能轻松地搭建站点。
+My ChatGPT is a personal chatbot site based on the OpenAI ChatGPT API. It provides a private chatbot site for your customers and visitors to interact with your bot. Simply provide an API Key, and you can easily set up the site.
 
-My ChatGPT的作者[Gabriel Wu](https://github.com/lucifer1004)已将源代码以MIT协议开源在[GitHub](https://github.com/lucifer1004/my-chatgpt)上，这意味着您可以自由地修改和分发代码，以满足您的需求。
+The author of My ChatGPT, [Gabriel Wu](https://github.com/lucifer1004), has open-sourced the code under the MIT license on [GitHub](https://github.com/lucifer1004/my-chatgpt), which means you are free to modify and distribute the code to suit your needs.
 
-如果您正在寻找一个简单易用的个人聊天机器人站点，那么My ChatGPT绝对是您的不二之选。立即获取API Key，开始构建您的聊天机器人站点吧！
+If you are looking for an easy-to-use personal chatbot site, My ChatGPT is definitely your best choice. Get your API Key now and start building your chatbot site!
 
-现在，你可以：
+Now you can:
 
-- [使用Unsplash API获取随机图片](/demos/unsplash)
+- [Use the Unsplash API to get random images](/demos/unsplash)
 
-或者：
+Or:
 `}
           />
           <div className="flex items-center justify-center">
@@ -40,10 +40,10 @@ My ChatGPT的作者[Gabriel Wu](https://github.com/lucifer1004)已将源代码�
                 router.push(`/chats/${newId}`);
               }}
               className="mt-5 flex w-[50%] items-center justify-center gap-2 bg-indigo-400 text-indigo-100 hover:bg-indigo-300 hover:text-indigo-600 dark:bg-slate-100 dark:text-slate-400 dark:hover:bg-slate-400 dark:hover:text-slate-100"
-              title="开始一个新对话"
+              title="Start a new conversation"
             >
               <ChatBubbleLeftRightIcon className="h-6" aria-hidden="true" />
-              立刻开始对话
+              Start Conversation Now
             </Button>
           </div>
         </div>
